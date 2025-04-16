@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loginButton.addEventListener("click",(event)=>{
         event.preventDefault();
         const credentials = {
-            "abraj@maliks.com": { password: "Abraj@101", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
+            "abraj@maliks.com": { password: "Abraj@101", page: "branches-index.html" },
             "kaslik@maliks.com": { password: "Kaslik@201", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
             "Hazmieh@maliks.com": { password: "Hazmieh@301", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
             "Mansourieh@maliks.com": { password: "Mansourieh@401", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
