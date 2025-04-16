@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loginButton.addEventListener("click",(event)=>{
         event.preventDefault();
         const credentials = {
-            "abraj@maliks.com": { password: "Abraj@101", page: "branches-index.html" },
+            "abraj@maliks.com": { password: "Abraj@101", page: "Branches-Index.html" },
         };
         const username = Userinput.value.toLowerCase();
         const password = Passwordinput.value;
