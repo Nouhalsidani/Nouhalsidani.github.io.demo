@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="Branches-style.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>  
+        <div class="header-right">
+          <a href="C:\Users\user\Desktop\department website\Feed Page\index-main.html">
+          <span class="material-icons-outlined">newspaper</span>
+          </a>
+          <a href="mailto:Malikscrm@maliks.com">
+            <span class="material-icons-outlined">email</span>
+        </a>
+        <a href="C:\Users\user\Desktop\department website\Log in page\Index-Login.html">
+          <span class="material-icons-outlined">account_circle</span>
+        </a>
+        </div>
+      </header>
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <p>Abraj</p>
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">poll</span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://maliks.zcrmportals.com/portal/Maliks/crm/login.sas" target="_blank">
+              <span class="material-icons-outlined">dashboard</span> Data Base
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://forms.zohopublic.com/maliks/report/ABCverdunBranches/reportperma/vPUiPnAAV2hQqSLmu_HDZljTYoAqWrWJBmANosGOpwY" target="_blank">
+              <span class="material-icons-outlined">inventory_2</span> Leads
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="C:/Users/user/Desktop/department website/Forms/Forms.html" target="_blank">
+              <span class="material-icons-outlined">fact_check</span> Forms
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://drive.google.com/file/d/1mwmKXejkz7q80xjtqkJ0YVSKsE_YH0N2/view?usp=sharing" target="_blank">
+              <span class="material-icons-outlined">add_shopping_cart</span> Offers & Themes
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD</p>
+        </div>
+        <div class="charts">
+          <div class="charts-card">
+            <p class="chart-title">Monthly Sales Per Department</p>
+            <div id="bar-chart">
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgzeB005TdoxchJ5RWjgY8cvedTaac4mQRmcmT_F41M2XwF2ZvjzTFJ0IA4m_P6UIem9MM1EwlhWsX/pubchart?oid=2141923463&amp;format=interactive"></iframe>
+            </div>
+          </div>
+          <div class="charts-card">
+            <p class="chart-title">Branch Mistakes</p>
+            <div id="bar-chart">
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS0J_vp-z10VDu6SYCPzq3p5VrDD4v5Nb2r3kPaPcGzSqBkw8w-1JYd__dgesPvDz_F6OBbFY_WIV_6/pubchart?oid=865581265&amp;format=interactive">
+              </iframe>
+            </div>
+          </div>
+          <div class="charts-card">
+            <p class="chart-title">Monthly Manual</p>
+            <div id="area-chart">
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSB8fNbqVzj7ei84Yt05JZ9r8BHYbpK7GdnSJkZfSLT_ENQi1EXFqkJVOXKoumcRuZLlOXn0XDx8hGF/pubchart?oid=481410125&amp;format=interactive">
+              </iframe>
+            </div>
+          </div>
+          <div class="charts-card">
+            <p class="chart-title">Croporate Portfolio</p>
+            <div id="area-chart">
+              <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTldDV6s7zGPrCLlvwDdGAdHo75ijjWx6_1cf6AkMFxLX4FoayW3jYv9tSmCmjwZloDc2j-eJqVuTbR/pubchart?oid=655162877&amp;format=interactive">              </iframe>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <script src="Branches-Script.js"></script>
+  </body>
+</html>
