@@ -16,11 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         event.preventDefault();
         const credentials = {
             "abraj@maliks.com": { password: "Abraj@101", page: "branches-index.html" },
-            "kaslik@maliks.com": { password: "Kaslik@201", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
-            "Hazmieh@maliks.com": { password: "Hazmieh@301", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
-            "Mansourieh@maliks.com": { password: "Mansourieh@401", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html" },
-            "kaslik@maliks.com": { password: "SpinneysJnah@501", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html"},
-            "beirutsouks@maliks.com": { password: "BeirutSouks@601", page: "C:/Users/user/Desktop/department website/Branches/Branches-Index.html"} ,
         };
         const username = Userinput.value.toLowerCase();
         const password = Passwordinput.value;
